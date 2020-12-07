@@ -24,7 +24,8 @@ function roll() {
     }
     console.log("shifting on ", shiftCount);
     barrel = temp;
-    console.log("new barrel ", barrel);
+    console.log("=================================");
+    console.log("==> new barrel ", barrel);
     checked = [];
     altered = [];
     rollCount++;
