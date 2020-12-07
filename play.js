@@ -1,4 +1,4 @@
-const {roll, check, alter} = require('./alladin.js');
+const {roll, check, alter} = require('./alibaba.js');
 
 let one, two, val;
 
