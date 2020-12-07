@@ -59,7 +59,7 @@ function alter(pos) {
     console.log("Now barrel is ", barrel);
     let sum = barrel.reduce((a, b) => a + b, 0);
     if (sum == 0 || sum == 4) {
-        throw new Error("You won, roll count is ", rollCount);
+        throw new Error("You won, roll count is " + rollCount);
     }
 }
 
